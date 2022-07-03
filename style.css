@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    padding: 0;
 }
 
 html, body {
@@ -43,10 +44,12 @@ footer {
     width: 100%
 }
 
-footer > a {
+footer a {
     float: right;
+
+    height: 70%;
 }
 
-footer > a > img {
-    height: 90%;
+footer img {
+    height: 100%;
 }

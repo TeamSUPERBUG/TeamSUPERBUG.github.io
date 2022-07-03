@@ -5,7 +5,7 @@ body {
 }
 
 header {
-  position: absolute;
+  position: fixed;
   background-color: cornflowerblue;
 
   width: 100%;
@@ -13,8 +13,21 @@ header {
   border: 1px solid black;
 }
 
+header > a {
+  display: inline;
+
+  padding: 50px 50px 10px 10px;
+}
+
+header > img {
+  max-height: 10px;
+  width: 100px;
+}
+
 h1 {
   font-weight: normal;
   
+  display: inline;
+
   text-align: center;
 }

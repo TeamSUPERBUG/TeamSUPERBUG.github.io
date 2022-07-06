@@ -1,3 +1,8 @@
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
 body {
   background-color: floralwhite;
 }
@@ -9,8 +14,24 @@ p {
 
 nav {
   display: block;
-  
+ 
   background-color: skyblue;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h1, h2, h3 {
+  font-weight: normal;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 30px;
 }
 
 nav > h1 {
@@ -18,18 +39,47 @@ nav > h1 {
 
   text-align: left;
 
-  font-weight: normal;
-  font-size: 40px;
+  padding: 0 0 0 20px;
 }
 
-nav > a {
+.navbar {
   display: inline-block;
 
-  font-size: 30px;
+  width: 62%;
+}
 
-  padding: 5px 5px 5px 5px;
+.navbar > a {
+  display: inline;
+
+  float: right;
+
+  font-size: 30px;
+  text-decoration: none;
+
+  padding: 5px 10px 5px 10px;
   margin: 5px 10px 5px 10px;
+}
+
+.navbar > a:link, a:visited {
+  color: white;
+ 
+  background-color: black;
+  border: 1px solid transparent;
+}
+
+.navbar > a:hover, a:active {
+  color: black;
+  
+  background-color: skyblue;
   border: 1px solid black;
+}
+
+#main, footer {
+  margin: 0 20px 20px 20px;
+}
+
+footer {
+  display: block;
 }
 
 .team-member img {

@@ -14,7 +14,7 @@ p {
 
 nav {
   display: block;
- 
+
   background-color: skyblue;
 }
 
@@ -45,7 +45,9 @@ nav > h1 {
 .navbar {
   display: inline-block;
 
-  width: 62%;
+  float:right;
+
+  margin: 50px 30px auto auto;
 }
 
 .navbar > a {

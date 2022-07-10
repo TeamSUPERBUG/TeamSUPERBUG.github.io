@@ -94,7 +94,6 @@ nav > h1 {
 }
 
 #main {
-  margin: 2%;
 }
 
 .twocolumn {
@@ -136,11 +135,11 @@ nav > h1 {
 }
 
 .column p {
+  text-align: left;
   font-family: times-new-roman;
   font-size: 30px;
 
-  padding-top: 20px;
-  margin-top: 0;
+  margin: 4%;
 }
 
 footer {

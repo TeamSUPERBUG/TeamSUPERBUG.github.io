@@ -93,7 +93,7 @@ nav > h1 {
   border: 1px solid black;
 }
 
-#main .twocolumn {
+div#main.twocolumn {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 50% 50%;
@@ -106,7 +106,7 @@ nav > h1 {
 .twocolumn {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr;
+  grid-template-rows: 50%;
 
   text-align: center;
 

@@ -106,7 +106,7 @@ div#main.twocolumn {
 .twocolumn {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 50%;
+  grid-template-rows: 30%;
 
   text-align: center;
 
@@ -239,4 +239,28 @@ footer a {
   padding: 0;
 
   border-radius: 50%;
+}
+
+.standard-grid {
+  display: grid;
+
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+
+  background-color: #DAE8E6;
+}
+
+.standard-grid h3 {
+  background-color: #BAC8C6; 
+}
+
+.grid-column {
+
+}
+
+.standard-grid img {
+  height: 10vh;
+  width: 10vw;
+
+  border-radius: 50;
 }

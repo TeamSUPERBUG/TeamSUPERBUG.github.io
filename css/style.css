@@ -96,7 +96,7 @@ nav > h1 {
 div#main.twocolumn {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 50% 50%;
+  grid-template-rows: 33% 33% 34%;
   
   text-align: center;
 
@@ -152,7 +152,7 @@ div#main.twocolumn {
 
 footer {
   margin: 0;
-  padding: 0 20px 20px 20px;
+  padding: 20px 20px 0 20px;
 
   background-color: #545B5A;
 }

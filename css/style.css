@@ -51,6 +51,10 @@ h3 {
   font-size: 30px;
 }
 
+#main > h3 {
+  margin-left: 1em;
+}
+
 nav > h1 {
   display: inline-block;
 
@@ -274,4 +278,12 @@ footer a {
   margin: 1vw 0 1vw 0;
 
   border-radius: 50%;
+}
+
+li a:visited, a:link {
+  color: black;
+}
+
+li a:active, li a:hover {
+  color: white;
 }

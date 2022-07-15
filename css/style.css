@@ -196,9 +196,12 @@ footer img {
   
 }
 
-footer a {
+footer a, footer a:active {
   font-size: 20px;
   color: white;
+
+  background-color: rgba(0,0,0,0);
+  border: 0;
 }
 
 .grid {
@@ -280,7 +283,12 @@ footer a {
   border-radius: 50%;
 }
 
-li a:visited, a:link {
+li a {
+  font-family: times-new-roman;
+  font-size: 25px;
+}
+
+li a:visited, li a:link {
   color: black;
 }
 

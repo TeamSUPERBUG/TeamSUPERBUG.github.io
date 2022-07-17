@@ -237,7 +237,7 @@ footer a, footer a:active {
   margin: 0;
 }
 
-.grid img {
+.grid-element img {
   width: 100%;
   height: 100%;
 
@@ -305,4 +305,23 @@ li a:active, li a:hover {
 
 .needs-margin {
   margin: 1em;
+}
+
+.bordered {
+
+}
+/*
+#main {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+}
+*/
+
+#main > img {
+  width: 100%;
+  height: 100%;
+
+  padding: 0;
+  margin: 0;
 }
